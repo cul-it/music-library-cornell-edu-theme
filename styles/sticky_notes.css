@@ -1,0 +1,50 @@
+#sticky-notes-overlay {background-color:black; opacity:0.8; z-index:1000; display:none; }
+
+#sticky-notes-wrapper {left:0px; position:absolute; top:0px; display:inline-block;}
+
+div.sticky-notes-note-item-wrapper {height:154px; margin:0px; position:absolute; padding:0px; width:154px; }
+
+.sticky-notes-note-item-priority {position:absolute; top:-12px; left:-10px; height:19px; overflow:hidden; display:none;}
+
+.sticky-notes-note-item-priority img {display:none;}
+
+div#sticky-notes-info-box-wrapper .hide-info-box .content,
+div#sticky-notes-info-box #sticky-notes-options,
+#sticky-notes-wrapper #sticky-notes-options-display-normal,
+#sticky-notes-wrapper span.sticky-note-nid,
+#sticky-notes-wrapper.hidden {display:none;}
+
+div.sticky-notes-note-item {background-color:#6D7280; font-size:12px; border: 2px solid #222; margin:0px; padding:5px; -moz-border-radius:15px; -webkit-border-radius:15px;}
+
+.sticky-notes-enabled .ui-draggable {cursor:move;}
+
+div.sticky-notes-note-item-body {font-size:.9em; line-height:.9em; padding:5px; }
+
+div.sticky-notes-note-item-body p {margin-top:0px; padding-top:0px; color:#eee;}
+
+div.sticky-notes-note-item-actions-wrapper {position:relative; text-align:right; /* LTR */}
+
+div.sticky-notes-note-item-actions {background-color:white; border:1px solid lightgray; display:none; font-size:9px; margin:0px; overflow:hidden; padding:1px; position:absolute; right:0px; top:0px; }
+
+div.sticky-notes-note-item-wrapper:hover div.sticky-notes-note-item-actions {display:inline; margin:0px; padding:0px; }
+
+div.sticky-notes-note-item-actions a {font-size:9px; margin:0px; padding:0px; }
+
+div.sticky-notes-note-item-author { /* LTR */ display:block;  font-size:10px; text-align:center; margin:0 3px 3px; }
+
+div#sticky-notes-info-box-wrapper {position:relative; text-align:left; }
+
+div#sticky-notes-info-box-wrapper .top_left {top:0px; left:0px; }
+div#sticky-notes-info-box-wrapper .top_right {top:0px; right:0px; }
+div#sticky-notes-info-box-wrapper .bottom_left {bottom:0px; left:0px; }
+div#sticky-notes-info-box-wrapper .bottom_right {bottom:0px; right:0px; }
+
+div#sticky-notes-info-box {min-height:40px; min-width:60px; margin:0px; padding:0px; position:fixed; z-index:6; }
+div#sticky-notes-info-box div {display:block;  }
+
+div#sticky-notes-info-box a.disabled,
+div#sticky-notes-info-box a.disabled:hover {text-decoration:none; }
+
+div#sticky-notes-info-box-wrapper .content {margin:0px; padding:3px 5px; background: white; }
+
+div#sticky-notes-add-note-button a {color:black; font-weight:normal; font-size:16px; text-decoration:none; }

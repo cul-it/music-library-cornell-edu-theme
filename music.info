@@ -1,0 +1,18 @@
+; $Id:  $
+name = Music Library
+description = Cornell University website template theme
+version = VERSION
+core = 6.x
+engine = phptemplate
+stylesheets[all][] = styles/style.css
+
+regions[banner]         = Banner (CU Identity)
+regions[header]         = Header
+regions[contenttitle] 	= Content Title
+regions[content] 		= Content
+regions[right]          = Right sidebar
+regions[left]         	= Left sidebar
+regions[footer]         = Footer
+regions[front_search] = Front Search
+regions[front_main] = Front Page Main
+regions[front_bottom] = Front Page Bottom
