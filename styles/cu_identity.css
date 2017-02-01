@@ -1,0 +1,87 @@
+/******************************************************
+ * Cornell Identity
+ ******************************************************/
+
+/***************
+	75px Banner
+***************/
+
+#cu-identity.seventy-five-px {height:75px; background:#68645b; background:#b31b1b url(../images/layout/header/1.jpg) no-repeat top center;}
+
+.seventy-five-px #cu-logo {position:absolute; top:0; left:50%; margin-left:-450px; width:900px; height:75px; background:url(../images/layout/header/unit_signature_psl.gif) no-repeat -8px -1px;}
+	
+.seventy-five-px #cu-logo a {position:absolute; display:block; border:none; 
+	text-indent:-1000em;}
+	
+.seventy-five-px #insignia-link {width:68px; height:75px;}
+
+.seventy-five-px #unit-signature-links a {left:68px; width:195px;}
+
+.seventy-five-px #cornell-link {height:38px;}
+	
+.seventy-five-px #unit-link {top:38px; height:37px;}
+	
+.seventy-five-px #cu-logo img {display:none;}
+ 
+/***************	
+	Search Form
+***************/
+
+.seventy-five-px #cu-identity-search-form {position:absolute; top:18px; right:50%; margin-right:-450px;}
+	
+.seventy-five-px #cu-identity-search-form form {margin:0; padding:0; text-align:right;}
+	
+.seventy-five-px #cu-identity-search-form label {color:#fff;}
+	
+.seventy-five-px #cu-identity-search-form-query {padding:3px; width:145px; border:none; font-family:verdana, arial, helvetica, sans-serif; font-size:1.1em; font-weight:bold; color:#fff; background:#b31b1b url(../images/layout/header/header_search.gif) no-repeat top left; vertical-align:middle;}
+	
+.seventy-five-px #cu-identity-search-form-submit {padding:0px 2px 3px 2px;; border-top:1px solid #a6a295; border-left:1px solid #a6a295; border-right:1px solid #403000; border-bottom:1px solid #403000; font-family:verdana, arial, helvetica, sans-serif; font-size:1.0em; font-weight:bold; color:#fff; background:#59544b; vertical-align:middle;}
+	
+.seventy-five-px #cu-identity-search-filters {margin:5px 0 0 0;}
+
+.seventy-five-px #cu-identity-search-filters input {vertical-align:middle; margin:0;}
+
+.seventy-five-px #cu-identity-search-filters label {vertical-align:middle; margin:0 10px 0 0;}
+	
+.seventy-five-px #cu-identity-search-form a {color:#fff; border-bottom:1px solid #999;}
+	
+.seventy-five-px #cu-identity-search-form a:hover {border-bottom:1px solid #fff;}
+ 
+/***************	
+	Search Navigation 
+***************/
+
+.seventy-five-px #cu-identity-search-navigation {position:absolute; top:37px; right:50%; margin-right:-445px;}
+	
+.seventy-five-px #cu-identity-search-navigation ul {margin:0; padding:0; font-size:1.1em;}
+	
+.seventy-five-px #cu-identity-search-navigation li {float:left; margin:0; padding:0; background:none; list-style-image:none;}
+		
+.seventy-five-px #cu-identity-search-navigation a {float:left; padding:5px 15px; color:#fff; text-decoration:none; border:none;}
+	
+.seventy-five-px #cu-identity-search-navigation a:hover {background:#444;}
+
+/***************
+	45px Banner 
+***************/
+
+#cu-identity.forty-five-px {height:45px; background:#68645b;}
+
+.forty-five-px #cu-logo {margin:0 auto; width:900px; background:url(../images/layout/cu_logo.gif) no-repeat top left;}
+	
+.forty-five-px #cu-logo a {border:none; display:block; width:180px; height:45px; background:url(../images/layout/cu_logo.gif) no-repeat top left;}
+	
+.forty-five-px #cu-logo img {display:none;}
+	
+.forty-five-px #cu-search {position:absolute; top:11px; 
+	right:50%; width:200px; margin-right:-445px;}
+	
+.forty-five-px #cu-search a {float:right; padding:5px 15px; font-size:1.1em; color:#fff; text-decoration:none; border:none;}
+	
+.forty-five-px #cu-search a:hover {background:#444;}
+
+/******************************************************
+ * Forms
+ ******************************************************/
+
+#cu-identity-search-form form {float:left; margin:5px 0 15px 0; padding:0; width:510px;}
