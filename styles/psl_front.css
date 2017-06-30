@@ -114,3 +114,8 @@ Quick Tips, News, Feat. Resources, Top Services
 #block-aggregator-feed-2 a:hover,
 #block-block-8 a:hover,
 #block-views-Quicktips-block_1 a:hover {text-decoration:underline;}
+
+/* Change home page grid to 3 across after Classic retirement 6/30/17 */
+#block-views-blog_posts-block_1, #block-views-new_items-block_1, #block-block-4, #block-block-12, #block-block-3 {
+	width: 300px !important;
+}
